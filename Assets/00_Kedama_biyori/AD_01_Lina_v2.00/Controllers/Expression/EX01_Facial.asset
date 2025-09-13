@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: EX01_Facial
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
+  controls:
+  - name: "\u8868\u60C5\u56FA\u5B9A"
+    icon: {fileID: 2800000, guid: 138441843c6e57248b2e399d2f3924f5, type: 3}
+    type: 102
+    parameter:
+      name: CN_EMOTE_LOCK_ENABLE
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u307E\u3070\u305F\u304D\u505C\u6B62"
+    icon: {fileID: 2800000, guid: f832327123fa1be4bbaeefacbe74c33d, type: 3}
+    type: 102
+    parameter:
+      name: SYNC_CN_FORCE_BLINK_DISABLE
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u30BF\u30C3\u30C1\u30D6\u30EA\u30F3\u30AF\u6709\u52B9"
+    icon: {fileID: 2800000, guid: b8882c4a6d5e0bc47bf8cbd8ecb9959c, type: 3}
+    type: 102
+    parameter:
+      name: SYNC_CN_TOUCH_BLINK_ENABLE
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

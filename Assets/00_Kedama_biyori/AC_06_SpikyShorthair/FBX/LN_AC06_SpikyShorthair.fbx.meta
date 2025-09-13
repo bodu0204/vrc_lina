@@ -1,0 +1,310 @@
+fileFormatVersion: 2
+guid: 76d3079f05537e345b80fe5015e156cf
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      74: 4781951162920444690
+    second: Armature|ArmatureAction
+  - first:
+      74: -1422011007694221501
+    second: Armature|ArmatureAction.001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair
+    second: {fileID: 2100000, guid: 191f7747c7505264aba78abee30e49fb, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 1
+    maxBonesPerVertex: 8
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 2
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: LN_AC06_Shorthair(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: LN_AC06_Shorthair(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head
+      parentName: Armature
+      position: {x: -0, y: 0, z: 0.765403}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: Left Eye
+      parentName: Head
+      position: {x: -0.038414385, y: 0.0592255, z: 0.029341538}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left Eye_end
+      parentName: Left Eye
+      position: {x: -0, y: 0.05057788, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right Eye
+      parentName: Head
+      position: {x: 0.038414385, y: 0.0592255, z: 0.029341538}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right Eye_end
+      parentName: Right Eye
+      position: {x: -0, y: 0.05057788, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hair
+      parentName: Head
+      position: {x: 5.038822e-18, y: 0.12904054, z: 0.009863419}
+      rotation: {x: -0.2517823, y: -0.00000011920929, z: 0.7303217, w: 0.63500863}
+      scale: {x: 1, y: 1, z: 1}
+    - name: maegami
+      parentName: hair
+      position: {x: 0.00042672828, y: 0.03505373, z: 0.077890545}
+      rotation: {x: 0.9798922, y: 0.058367908, z: 0.058367826, w: 0.18165284}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.9999987}
+    - name: maegami.001
+      parentName: maegami
+      position: {x: -0.0000000037252903, y: 0.022164213, z: 0.00000001778244}
+      rotation: {x: 0.1547026, y: -0.14031272, z: 0.11197367, w: 0.97151506}
+      scale: {x: 1, y: 1.0000006, z: 1.0000004}
+    - name: maegami.001_end
+      parentName: maegami.001
+      position: {x: -0, y: 0.021458004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: maegami.002
+      parentName: hair
+      position: {x: 0.051529333, y: 0.025278091, z: 0.07094571}
+      rotation: {x: 0.9483379, y: 0.19102584, z: 0.19102551, w: 0.16635403}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1}
+    - name: maegami.003
+      parentName: maegami.002
+      position: {x: 0.000000013038516, y: 0.024427293, z: 0.000000018626451}
+      rotation: {x: 0.18932806, y: 0.080441445, z: 0.0084594935, w: 0.97857684}
+      scale: {x: 1, y: 1.0000004, z: 1.0000002}
+    - name: maegami.003_end
+      parentName: maegami.003
+      position: {x: -0, y: 0.028245907, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: maegami.004
+      parentName: hair
+      position: {x: -0.060661886, y: 0.027253807, z: 0.07512306}
+      rotation: {x: 0.9817544, y: -0.11602816, z: -0.116028786, w: 0.09608854}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1}
+    - name: maegami.005
+      parentName: maegami.004
+      position: {x: 0.000000022351742, y: 0.025155567, z: 0.000000013038516}
+      rotation: {x: 0.11807482, y: 0.19281748, z: -0.18385948, w: 0.95659584}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1.0000002}
+    - name: maegami.005_end
+      parentName: maegami.005
+      position: {x: -0, y: 0.024374861, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ahoge
+      parentName: hair
+      position: {x: 0.0046832836, y: 0.060560465, z: 0.008126631}
+      rotation: {x: 0.0034325416, y: -0.071226835, z: -0.071226954, w: 0.99490786}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: ahoge.001
+      parentName: ahoge
+      position: {x: 0.000000022351742, y: 0.024168007, z: -0.0000000017462298}
+      rotation: {x: -0.5803177, y: 0.29076055, z: 0.37156704, w: 0.6637979}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: ahoge.001_end
+      parentName: ahoge.001
+      position: {x: -0, y: 0.028994992, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mituami
+      parentName: hair
+      position: {x: 0.09698302, y: -0.028971314, z: 0.041390315}
+      rotation: {x: 0.995134, y: 0.049522687, z: 0.04952268, w: -0.06930646}
+      scale: {x: 0.9999939, y: 0.99999976, z: 0.9999906}
+    - name: mituami.001
+      parentName: mituami
+      position: {x: 0.000000005122274, y: 0.04696466, z: -0.0000000027939677}
+      rotation: {x: -0.190976, y: -0.1012601, z: -0.37915137, w: 0.89973265}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+    - name: mituami.002
+      parentName: mituami.001
+      position: {x: 0.000000005355105, y: 0.025063876, z: 0}
+      rotation: {x: -0.045752414, y: -0.053638726, z: 0.058115896, w: 0.99581736}
+      scale: {x: 0.99999994, y: 1.0000012, z: 1.0000005}
+    - name: mituami.003
+      parentName: mituami.002
+      position: {x: 0.000000003259629, y: 0.022301082, z: -0.000000014901161}
+      rotation: {x: 0.008722465, y: -0.22091515, z: 0.20745966, w: 0.9529328}
+      scale: {x: 0.999999, y: 1.0000018, z: 1.0000001}
+    - name: mituami.003_end
+      parentName: mituami.003
+      position: {x: -0, y: 0.031183822, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: momiage
+      parentName: hair
+      position: {x: -0.10142603, y: -0.04665357, z: 0.03050662}
+      rotation: {x: 0.99992853, y: -0.0018136338, z: -0.0018375376, w: 0.011674583}
+      scale: {x: 0.99999756, y: 1, z: 0.9998976}
+    - name: momiage.001
+      parentName: momiage
+      position: {x: -0.0000000013387762, y: 0.041930918, z: -0.000000003812602}
+      rotation: {x: -0.14224689, y: 0.23285085, z: -0.226993, w: 0.9348906}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000004}
+    - name: momiage.001_end
+      parentName: momiage.001
+      position: {x: -0, y: 0.04641617, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: yokogami_L
+      parentName: hair
+      position: {x: -0.103979625, y: -0.052927196, z: -0.031273328}
+      rotation: {x: 0.19113304, y: -0.7668724, z: -0.17965218, w: 0.58574736}
+      scale: {x: 0.999999, y: 1, z: 0.99999994}
+    - name: yokogami_L.001
+      parentName: yokogami_L
+      position: {x: 0.000000028871, y: 0.03803878, z: 0.000000018626451}
+      rotation: {x: -0.0019199175, y: -0.25006446, z: 0.10866911, w: 0.96210974}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000007}
+    - name: yokogami_L.001_end
+      parentName: yokogami_L.001
+      position: {x: -0, y: 0.033396445, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: yokogami_R
+      parentName: hair
+      position: {x: 0.103979625, y: -0.052927196, z: -0.031273328}
+      rotation: {x: 0.98019546, y: 0.088130295, z: 0.13939951, w: -0.10962502}
+      scale: {x: 0.999999, y: 1, z: 0.99999994}
+    - name: yokogami_R.001
+      parentName: yokogami_R
+      position: {x: -0.000000028871, y: 0.03803878, z: 0.000000018626451}
+      rotation: {x: 0.037572917, y: 0.18187276, z: 0.1410879, w: 0.9724221}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000007}
+    - name: yokogami_R.001_end
+      parentName: yokogami_R.001
+      position: {x: -0, y: 0.033396445, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: usirogami
+      parentName: hair
+      position: {x: 1.6367037e-17, y: -0.06466925, z: -0.11204741}
+      rotation: {x: 0.9996978, y: 0.0000000029305447, z: -0.000000119170736, w: -0.024583668}
+      scale: {x: 1, y: 0.99999976, z: 0.99997854}
+    - name: usirogami.001
+      parentName: usirogami
+      position: {x: -8.667726e-16, y: 0.035467535, z: 0.000000007450581}
+      rotation: {x: 0.1446807, y: 0.00000011795221, z: -0.00000001724538, w: 0.9894784}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: usirogami.001_end
+      parentName: usirogami.001
+      position: {x: -0, y: 0.034043718, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hair_short
+      parentName: LN_AC06_Shorthair(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
