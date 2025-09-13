@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: AD01_EX04_Cloth_Sub
+  m_EditorClassIdentifier: 
+  controls:
+  - name: "\u30CB\u30C3\u30C8\u30D9\u30B9\u30C8"
+    icon: {fileID: 2800000, guid: 39364989a09ebe142927f72bb16a3eb0, type: 3}
+    type: 102
+    parameter:
+      name: AD01_VEST
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u30B7\u30E3\u30C4"
+    icon: {fileID: 2800000, guid: 9a4e8725c7ee351499078908bd3a714f, type: 3}
+    type: 102
+    parameter:
+      name: AD01_SHIRT
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u30B9\u30AB\u30FC\u30C8"
+    icon: {fileID: 2800000, guid: 481def2e5d2253b499f60581d26a7dce, type: 3}
+    type: 102
+    parameter:
+      name: AD01_SKIRT
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u9774\u4E0B"
+    icon: {fileID: 2800000, guid: ff000a69b5f5b7c4a9cc638ad2379bbb, type: 3}
+    type: 102
+    parameter:
+      name: AD01_SOCKS
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u30ED\u30FC\u30D5\u30A1\u30FC"
+    icon: {fileID: 2800000, guid: 39e4afd32bc09b14b81df164274a7cbf, type: 3}
+    type: 102
+    parameter:
+      name: AD01_SHOES
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u30D6\u30E9"
+    icon: {fileID: 2800000, guid: 45cf2f643731e8d40b902a9836fd62b0, type: 3}
+    type: 102
+    parameter:
+      name: AD01_UNDERWEAR-BRA
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u30B7\u30E7\u30FC\u30C4"
+    icon: {fileID: 2800000, guid: 38e1c7e630911b04babc67ea13ae8164, type: 3}
+    type: 102
+    parameter:
+      name: AD01_UNDERWEAR
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u30EA\u30BB\u30C3\u30C8"
+    icon: {fileID: 2800000, guid: cdc91e96b072d9f47a2c5ec5e87b297f, type: 3}
+    type: 101
+    parameter:
+      name: AD01_RESET
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
