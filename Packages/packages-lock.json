@@ -1,5 +1,13 @@
 {
   "dependencies": {
+    "com.github.kurotu.vrc-quest-tools": {
+      "version": "file:com.github.kurotu.vrc-quest-tools",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "2.0.2"
+      }
+    },
     "com.unity.burst": {
       "version": "1.8.12",
       "depth": 1,
